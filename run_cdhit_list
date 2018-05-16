@@ -1,0 +1,13 @@
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir100 -c 1.00 -n 5
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir95 -c 0.95 -n 5
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir90 -c 0.90 -n 5
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir85 -c 0.85 -n 5
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir80 -c 0.80 -n 5
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir75 -c 0.75 -n 5
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir70 -c 0.70 -n 5
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir65 -c 0.65 -n 4
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir60 -c 0.60 -n 4
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir55 -c 0.55 -n 3
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir50 -c 0.50 -n 3
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir45 -c 0.45 -n 2
+cd-hit -i /work/04114/xiangl1/stampede2/mmetsp/hmm/database/new_euk_vir.faa -o /work/04114/xiangl1/stampede2/mmetsp/hmm/cd-hit-out/euk_vir40 -c 0.4 -n 2
