@@ -29,7 +29,10 @@ sub main {
 
 	# split .clstr to individual cluster id files 
 	my $total_cluster = `grep -c '>Cluster' $clstr_file`;
-	for (my $i=0; $i < $total_cluster; $i++) {
+	my $init = `grep '>Cluster' $clstr_file | head -n1`;
+	$init =~ s/^>Cluster //g;
+
+	for (my $i=$init; $i < $init+$total_cluster; $i++) {
 		my $j=$i+1;
 		my $lines = `perl -ne "print if /^>Cluster $i\$/../^>Cluster $j\$/;" $clstr_file`;
 		my @cluster = split ("\n", $lines);
